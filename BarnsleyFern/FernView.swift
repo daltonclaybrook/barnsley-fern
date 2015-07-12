@@ -29,7 +29,7 @@ class FernView: UIView {
         for point in self.allPoints {
             let pointRect = self.rectFromPoint(point)
             if (CGRectContainsRect(rect, pointRect) || CGRectIntersectsRect(rect, pointRect)) {
-                CGContextFillEllipseInRect(context, pointRect)
+                CGContextFillRect(context, pointRect)
             }
         }
     }

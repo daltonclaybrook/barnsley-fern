@@ -40,6 +40,7 @@ class ViewController: UIViewController {
     // MARK: - Private
     
     func fernColor() -> CGColorRef {
+        
         return UIColor(red: 0.4, green: 1.0, blue: 0.4, alpha: 1.0).CGColor
     }
 }

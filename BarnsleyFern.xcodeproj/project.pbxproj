@@ -39,6 +39,35 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		75E947601B5214AC00771C07 /* FernLogic */ = {
+			isa = PBXGroup;
+			children = (
+				75EC69C71B517E3D002F7623 /* FernView.swift */,
+				75EC69C91B51B008002F7623 /* FernController.swift */,
+			);
+			name = FernLogic;
+			sourceTree = "<group>";
+		};
+		75E947611B5214B700771C07 /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				75EC69B71B517DE9002F7623 /* ViewController.swift */,
+				75EC69B91B517DE9002F7623 /* Main.storyboard */,
+				75EC69BE1B517DE9002F7623 /* LaunchScreen.storyboard */,
+			);
+			name = Presentation;
+			sourceTree = "<group>";
+		};
+		75E947621B5214BF00771C07 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				75EC69B51B517DE9002F7623 /* AppDelegate.swift */,
+				75EC69BC1B517DE9002F7623 /* Assets.xcassets */,
+				75EC69C11B517DE9002F7623 /* Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
 		75EC69A91B517DE9002F7623 = {
 			isa = PBXGroup;
 			children = (
@@ -58,14 +87,9 @@
 		75EC69B41B517DE9002F7623 /* BarnsleyFern */ = {
 			isa = PBXGroup;
 			children = (
-				75EC69B51B517DE9002F7623 /* AppDelegate.swift */,
-				75EC69B71B517DE9002F7623 /* ViewController.swift */,
-				75EC69B91B517DE9002F7623 /* Main.storyboard */,
-				75EC69BC1B517DE9002F7623 /* Assets.xcassets */,
-				75EC69BE1B517DE9002F7623 /* LaunchScreen.storyboard */,
-				75EC69C11B517DE9002F7623 /* Info.plist */,
-				75EC69C71B517E3D002F7623 /* FernView.swift */,
-				75EC69C91B51B008002F7623 /* FernController.swift */,
+				75E947601B5214AC00771C07 /* FernLogic */,
+				75E947611B5214B700771C07 /* Presentation */,
+				75E947621B5214BF00771C07 /* Resources */,
 			);
 			path = BarnsleyFern;
 			sourceTree = "<group>";
@@ -295,6 +319,7 @@
 				75EC69C61B517DE9002F7623 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
